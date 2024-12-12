@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 nohup python3 converting_indiv.py --split test --start_idx 0 --num_samples 3000 --num_processes 3 > log_3000.txt 2>&1 &
